@@ -27,7 +27,7 @@ import sklearn
 from config import CFG
 import sys
 
-sys.path.append('./image-fmix/FMix-master')
+sys.path.append('./FMix-master')
 from fmix import sample_mask, make_low_freq_image, binarise_mask
 
 def get_img(path):
